@@ -18,7 +18,7 @@ Environment Variables
 Running
 -------
 
-    docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="zookeeper.exmaple.com:2181" -e APPLICATION_SECRET=S3cret aaronzirbes/kafka-manager
+    docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="zookeeper.example.com:2181" -e APPLICATION_SECRET=S3cret aaronzirbes/kafka-manager
 
 The config dir is located at `/usr/local/kafka-manager-1.2.4/conf`, so you can override locally via:
 
